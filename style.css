@@ -1,0 +1,717 @@
+* {
+  margin: 0px;
+}
+
+.top {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid;
+  padding-top: 20px;
+}
+.topA {
+  display: flex;
+  flex: 1;
+  width: 30%;
+  justify-content: center;
+}
+.topB {
+  display: flex;
+  flex: 2;
+  width: 40%;
+  justify-content: center;
+}
+.topA img {
+  height: 31px;
+  width: 122px;
+  margin-left: 300px;
+}
+.topB img {
+  width: 22px;
+  height: 30px;
+}
+.topB h4 {
+  margin-left: 20px;
+  margin-top: 15px;
+  font-style: normal;
+  margin-right: 10px;
+}
+.image {
+  width: 12px;
+  height: 12px;
+  margin-top: 8px;
+  margin-left: 20px;
+}
+.topB p {
+  margin-top: 18px;
+  margin-left: 10px;
+}
+.topB h4:hover {
+  color: #003781;
+}
+.topB img:hover {
+  color: aqua;
+}
+.top2 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 400px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+.top2 a {
+  display: flex;
+  flex-direction: row;
+  color: #0a0a0a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.top2 a:hover {
+  background-color: #003781;
+  color: black;
+}
+.searchbar {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+}
+.searchbar img {
+  width: 25px;
+  height: 25px;
+}
+.searchbar input {
+  border: 0px;
+}
+.top3 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 500px;
+  background-image: url(./image/allianz-earthquake-response-announcement-stage-banner.jpeg);
+  align-items: center;
+}
+.top3A {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  height: 400px;
+  background-color: azure;
+  margin-top: 200px;
+  margin-right: 600px;
+  margin-bottom: 30px;
+  padding-top: 50px;
+  align-items: flex-start;
+  margin-left: 200px;
+  padding-left: 30px;
+}
+.top3A h1 {
+  font-size: 35px;
+  color: #003781;
+  font-weight: 300;
+}
+.readmore {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+}
+.readmore img {
+  width: 24px;
+  height: 18px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.readmore p {
+  font-size: 18px;
+  color: #003781;
+}
+.readmore p:hover {
+  color: #426ba1;
+}
+.top4 {
+  display: flex;
+  width: 100%;
+  height: 250px;
+  background-color: #b2d7e8;
+  text-align: center;
+  align-items: center;
+}
+.top4A {
+  margin: auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: italic;
+}
+.middle {
+  height: 152px;
+  width: 1120px;
+  margin-left: 400px;
+  display: flex;
+  align-items: center;
+}
+.middle1 {
+  height: 48px;
+  width: 674.667px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.middle1 h1 {
+  font-size: 40px;
+  letter-spacing: 0.3px;
+  font-weight: 300;
+  text-decoration: rgb(65, 65, 65);
+}
+.row {
+  display: flex;
+}
+.middleA {
+  height: 450px;
+  width: 373.283px;
+  margin-left: 400px;
+  background-color: rgb(250, 247, 239);
+  display: flex;
+  flex-direction: row;
+}
+.middleB {
+  background-image: url(./image/allianz.com-earthquake-steimen-interview-in-the-spotlight.jpeg);
+  height: 450px;
+  width: 746.583px;
+}
+.middleA {
+  display: flex;
+  flex-direction: column;
+}
+.date {
+  height: 24px;
+  width: 309.283px;
+  margin-left: 20px;
+  text-align: left;
+  margin-top: 20px;
+}
+.date p {
+  font-size: 16px;
+  line-height: 24px;
+}
+.middlehead {
+  height: 108px;
+  width: 309.283px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.middlehead h3 {
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+  line-height: 36px;
+  text-align: left;
+}
+.middlepara {
+  height: 168px;
+  width: 309.283px;
+  margin-top: 16px;
+  margin-left: 20px;
+}
+.middlepara {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+#greencar {
+  height: 414.717px;
+  width: 746.583px;
+  background-image: url(./image/allianz.com-article-thumbnail-international-motor-day.jpeg);
+  margin-left: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.middleC {
+  height: 414.717px;
+  width: 373.417px;
+  background-color: #eff6ee;
+}
+.space {
+  margin-left: 400px;
+  height: 120px;
+  width: 1120px;
+}
+.middleD {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 400px;
+}
+.D1 {
+  height: 408px;
+  width: 576px;
+}
+.Dheader {
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+  line-height: 36px;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.Dheader h3 {
+  font-weight: 100;
+  font-size: 28px;
+}
+.middleparaD {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.middleparaD p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+.space2 {
+  margin-left: 400px;
+  height: 40px;
+  width: 1120px;
+  margin-bottom: 20px;
+}
+.podcast {
+  height: 252px;
+  width: 736px;
+  border: 1px solid #0a0a0a;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.podcasthead {
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 20px;
+}
+.static {
+  width: 100%;
+  height: 442px;
+  background-color: #b2d7e8;
+  display: flex;
+}
+.staticimage {
+  margin-left: 400px;
+  height: 320px;
+  width: 352px;
+  background-image: url(./image/Screenshot\ 2023-02-10\ at\ 13-44-51\ Insurance\ and\ Asset\ Management\ worldwide.png);
+  margin-top: 80px;
+}
+.counter1 {
+  margin-top: 80px;
+  height: 320px;
+  width: 368px;
+  background-color: #003781;
+}
+.counter2 {
+  margin-top: 80px;
+  height: 320px;
+  width: 368px;
+  background-color: #dad0e1;
+}
+.Dheader1 {
+  font-size: 26px;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+  line-height: 36px;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #eff6ee;
+}
+.middleparaD1 {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #eff6ee;
+}
+#more {
+  font-size: 18px;
+  color: hsl(180, 9%, 98%);
+}
+.Dheader2 {
+  font-size: 26px;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+  line-height: 36px;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #020b01;
+}
+.middleparaD2 {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #080808;
+}
+#more1 {
+  font-size: 18px;
+  color: hsl(180, 3%, 6%);
+}
+#poster {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  background-image: url(./image/fdb93e44-a25b-4c5b-a4cf-21e53447b3c4.jpg);
+  background-size: cover;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.podcast {
+  display: flex;
+}
+#twodiv {
+  display: flex;
+  flex-direction: column;
+}
+#controler {
+  height: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+audio {
+  background-color: #003781;
+  color: #003781;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+#news {
+  display: flex;
+  margin-left: 400px;
+  width: 1120px;
+  height: 60px;
+  text-align: center;
+  align-items: center;
+}
+.Dheader3 {
+  font-size: 26px;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+  line-height: 36px;
+  text-align: left;
+  margin-left: 350px;
+  margin-top: 20px;
+  color: #020b01;
+}
+.news1 {
+  margin-left: 400px;
+  height: 556px;
+  width: 384px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.news2 {
+  display: flex;
+  height: 556px;
+  width: 384px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.news3 {
+  height: 556px;
+  width: 384px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.readmore1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+}
+.readmore1 img {
+  width: 24px;
+  height: 18px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+#button {
+  display: flex;
+  margin-left: 400px;
+  height: 168px;
+  width: 1120px;
+  align-items: center;
+}
+#button button {
+  margin-left: 400px;
+  height: 48px;
+  width: 158px;
+  background-color: #003781;
+  color: #dad0e1;
+  font-size: 16px;
+  border-radius: 6px;
+}
+#button button:hover {
+  background-color: #426ba1;
+}
+.spacer {
+  margin-left: 400px;
+  height: 48px;
+  width: 1120px;
+}
+.middleAA {
+  height: 48px;
+  width: 674.667px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 350px;
+}
+.middleAA h1 {
+  font-size: 40px;
+  letter-spacing: 0.3px;
+  font-weight: 200;
+  text-decoration: rgb(65, 65, 65);
+}
+.spacer p {
+  margin-top: 60px;
+  margin-left: 340px;
+}
+.socialmedia {
+  display: flex;
+  flex-direction: column;
+  margin-left: 400px;
+  width: 1120px;
+  height: 500px;
+  margin-top: 40px;
+}
+.social1 {
+  display: flex;
+}
+#v1 {
+  height: 276px;
+  width: 279px;
+  background-image: url(./image/Screenshot\ 2023-02-10\ at\ 17-16-53\ Insurance\ and\ Asset\ Management\ worldwide.png);
+  background: cover;
+}
+#v2 {
+  height: 276px;
+  width: 279px;
+  background-image: url(./image/Screenshot\ 2023-02-10\ at\ 17-17-07\ Insurance\ and\ Asset\ Management\ worldwide.png);
+  background: cover;
+}
+#v3 {
+  height: 276px;
+  width: 279px;
+  background-image: url(./image/Screenshot\ 2023-02-10\ at\ 17-17-20\ Insurance\ and\ Asset\ Management\ worldwide.png);
+  background: cover;
+}
+#v4 {
+  height: 276px;
+  width: 279px;
+  background-image: url(./image/Screenshot\ 2023-02-10\ at\ 17-17-32\ Insurance\ and\ Asset\ Management\ worldwide.png);
+  background: cover;
+}
+.social2 {
+  display: flex;
+}
+#v5 {
+  height: 276px;
+  width: 279px;
+  background-image: url(./image/Screenshot\ 2023-02-10\ at\ 17-17-43\ Insurance\ and\ Asset\ Management\ worldwide.png);
+  background: cover;
+}
+#v6 {
+  height: 276px;
+  width: 279px;
+  background-image: url(./image/Screenshot\ 2023-02-10\ at\ 17-17-53\ Insurance\ and\ Asset\ Management\ worldwide.png);
+  background: cover;
+}
+#v7 {
+  height: 276px;
+  width: 279px;
+  background-image: url(./image/Screenshot\ 2023-02-10\ at\ 17-18-07\ Insurance\ and\ Asset\ Management\ worldwide.png);
+  background: cover;
+}
+#v8 {
+  height: 276px;
+  width: 279px;
+  background-image: url(./image/Screenshot\ 2023-02-10\ at\ 17-18-18\ Insurance\ and\ Asset\ Management\ worldwide.png);
+  background: cover;
+}
+.complete {
+  margin-top: 20px;
+  height: 327px;
+  width: 100%;
+  background-color: #e6f4f6;
+  display: flex;
+  align-items: center;
+}
+.logoimage {
+  flex: 1;
+}
+.logoimage img {
+  margin-left: 400px;
+  height: 231px;
+  width: 352px;
+}
+.styler {
+  margin-left: 25px;
+  flex: 2;
+  width: 400px;
+  height: 250px;
+}
+.styler h3 {
+  font-size: 30px;
+  font-style: normal;
+}
+.styler p {
+  margin-top: 30px;
+  font-size: 16px;
+  font-style: normal;
+}
+#v9 {
+  height: 276px;
+  width: 279px;
+  margin-left: 400px;
+}
+#v10 {
+  height: 276px;
+  width: 279px;
+}
+#v11 {
+  height: 276px;
+  width: 279px;
+}
+#v12 {
+  height: 276px;
+  width: 279px;
+}
+.imageser {
+  width: 90px;
+  height: 56px;
+}
+.hhhh {
+  font-size: 20px;
+}
+.find {
+  height: 266px;
+  width: 100%;
+  background-color: #007ab3;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.find h1 {
+  margin-top: 100px;
+  color: #e6f4f6;
+}
+.find button {
+  margin-left: 0px;
+  width: 200px;
+  height: 50px;
+  background-color: #007ab3;
+  border: 1px #dad0e1 solid;
+  border-color: #dad0e1;
+  color: aliceblue;
+}
+.find button:hover {
+  background-color: #dad0e1;
+}
+.footermain {
+  height: 328px;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+#v13 {
+  margin-left: 400px;
+  height: 360px;
+  width: 288px;
+  display: flex;
+  flex-direction: column;
+}
+
+#v13 li {
+  margin: 10px 0px;
+  list-style-type: none;
+  font-weight: 200;
+  font-size: 15px;
+}
+#v13 h5 {
+  margin-top: 30px;
+  margin-left: 25px;
+  font-size: 20px;
+  font-weight: 600;
+}
+#v14 {
+  height: 360px;
+  width: 288px;
+  display: flex;
+  flex-direction: column;
+}
+#v14 li {
+  margin: 10px 0px;
+  list-style-type: none;
+  font-weight: 200;
+  font-size: 15px;
+}
+#v14 h5 {
+  margin-top: 30px;
+  margin-left: 25px;
+  font-size: 20px;
+  font-weight: 600;
+}
+#v15 {
+  height: 360px;
+  width: 288px;
+  display: flex;
+  flex-direction: column;
+}
+#v15 li {
+  margin: 10px 0px;
+  list-style-type: none;
+  font-weight: 200;
+  font-size: 15px;
+}
+#v15 h5 {
+  margin-top: 30px;
+  margin-left: 25px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.middleAAA {
+  height: 48px;
+  width: 674.667px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 350px;
+}
+.middleAAA h1 {
+  font-size: 25px;
+  letter-spacing: 0.3px;
+  font-weight: 200;
+  text-decoration: rgb(65, 65, 65);
+}
+.copyright {
+  width: 100%;
+  height: 104px;
+  border-top: 1px black solid;
+  display: flex;
+}
+.copyright1 {
+  width: 360px;
+  height: 104px;
+}
+.copyright ul {
+  display: flex;
+  flex-direction: row;
+}
+.copyright li {
+  list-style-type: none;
+  margin-left: 60px;
+  font-size: 16px;
+}
